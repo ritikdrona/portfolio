@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Education from '../components/Education'
 import styles from '../styles/home.module.scss'
 
 const Home: NextPage = () => {
@@ -15,6 +16,8 @@ const Home: NextPage = () => {
           COMING SOON !
         </h1>
       </main>
+
+      <Education />
     </div>
   )
 }

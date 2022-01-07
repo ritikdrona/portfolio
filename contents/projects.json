@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Adhyaaya 2020",
+        "description": "Website for the annual techno-cultural festival of GCOEN, Adhyaaya 2020.",
+        "liveUrl": "",
+        "githubUrl": "https://github.com/ritikdrona/adhyaaya-2020",
+        "photoUrl": "",
+        "technologies": ["HTML", "CSS", "Javascript", "Bootstrap"]
+    }
+]

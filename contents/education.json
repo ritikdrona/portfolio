@@ -1,0 +1,26 @@
+[
+    {
+        "institution": "Dr. Yardy English High School, Umri",
+        "studyType": "SSC",
+        "specialization": "General",
+        "percentage": 91.80,
+        "from": "2022",
+        "to": "2016"
+    },
+    {
+        "institution": "Saraswati Junior College",
+        "studyType": "HSC",
+        "specialization": "Computer Science",
+        "percentage": 93.08,
+        "from": "2016",
+        "to": "2018"
+    },
+    {
+        "institution": "Government College of Engineering, Nagpur",
+        "studyType": "Graduation",
+        "specialization": "Computer Science and Engineering",
+        "percentage": 77.93,
+        "from": "2018",
+        "to": "2022"
+    }
+]
