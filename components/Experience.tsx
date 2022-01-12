@@ -1,4 +1,4 @@
-function Education() {
+function Experience() {
     return (
         <div>
 
@@ -6,4 +6,4 @@ function Education() {
     )
 }
 
-export default Education
+export default Experience

@@ -1,4 +1,4 @@
-function Education() {
+function Header() {
     return (
         <div>
 
@@ -6,4 +6,4 @@ function Education() {
     )
 }
 
-export default Education
+export default Header

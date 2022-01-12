@@ -1,7 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Education from '../components/Education'
-import styles from '../styles/home.module.scss'
+
+import Education from 'components/Education'
+import Experience from 'components/Experience'
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+import Hero from 'components/Hero'
+import Projects from 'components/Projects'
+
+import styles from 'styles/home.module.scss'
 
 const Home: NextPage = () => {
   return (
@@ -11,13 +18,13 @@ const Home: NextPage = () => {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          COMING SOON !
-        </h1>
-      </main>
-
+      <Header />
+      <Hero />
       <Education />
+      <Experience />
+      <Projects />
+      <Footer />
+
     </div>
   )
 }

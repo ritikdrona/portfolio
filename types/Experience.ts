@@ -1,6 +1,6 @@
 export type Experience = {
     company: string
-    position: 'Intern' | 'Full Time'
+    position: string
     role: string
     from: string
     to: string
