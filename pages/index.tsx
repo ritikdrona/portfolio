@@ -9,6 +9,7 @@ import Hero from 'components/Hero'
 import Projects from 'components/Projects'
 
 import styles from 'styles/home.module.scss'
+import SidePanel from 'components/SidePanel'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
+      <SidePanel />
       <Hero />
       <Education />
       <Experience />

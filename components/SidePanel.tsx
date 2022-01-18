@@ -1,9 +1,8 @@
-import styles from "styles/header.module.scss";
+import styles from '/styles/side-panel.module.scss'
 
-function Header() {
+function SidePanel() {
     return (
-        <header className={styles.header}>
-            <div className="logo">Ritik Drona</div>
+        <aside className={styles.sidePanel}>
             <nav>
                 <ul>
                     <li>
@@ -17,8 +16,11 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </header>
-    );
+            <div className={styles.socialLinks}>
+
+            </div>
+        </aside>
+    )
 }
 
-export default Header;
+export default SidePanel

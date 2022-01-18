@@ -1,0 +1,29 @@
+.sidePanel {
+  height: 100vh;
+  width: 80px;
+  background-color: gray;
+  position: fixed;
+  left: 0;
+
+  nav ul {
+    list-style-type: none;
+    // margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    li {
+      width: 100%;
+      text-transform: uppercase;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      //   float: left;
+      position: absolute;
+      top: 0;
+
+      a {
+      }
+    }
+  }
+}
