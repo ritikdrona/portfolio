@@ -12,23 +12,22 @@ import styles from 'styles/home.module.scss'
 import SidePanel from 'components/SidePanel'
 
 const Home: NextPage = () => {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Ritik Drona</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
+    return (
+        <>
+            <Head>
+                <title>Ritik Drona</title>
+                {/* <link rel="icon" href="/favicon.ico" /> */}
+            </Head>
 
-      <Header />
-      <SidePanel />
-      <Hero />
-      <Education />
-      <Experience />
-      <Projects />
-      <Footer />
-
-    </div>
-  )
+            <Header />
+            {/* <SidePanel /> */}
+            <Hero />
+            <Education />
+            <Experience />
+            <Projects />
+            <Footer />
+        </>
+    )
 }
 
 export default Home

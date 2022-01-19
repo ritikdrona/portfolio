@@ -1,9 +1,5 @@
 function Education() {
-    return (
-        <div>
-
-        </div>
-    )
+    return <div></div>;
 }
 
-export default Education
+export default Education;
