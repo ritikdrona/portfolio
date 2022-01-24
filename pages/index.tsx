@@ -7,9 +7,9 @@ import Footer from 'components/Footer'
 import Header from 'components/Header'
 import Hero from 'components/Hero'
 import Projects from 'components/Projects'
+import SidePanel from 'components/SidePanel'
 
 import styles from 'styles/home.module.scss'
-import SidePanel from 'components/SidePanel'
 
 const Home: NextPage = () => {
     return (

@@ -1,3 +1,4 @@
+import SectionHeader from 'components/SectionHeader'
 import contents from 'contents'
 import styles from 'styles/projects.module.scss'
 
@@ -5,9 +6,7 @@ function Projects() {
     console.log(contents)
     return (
         <section className={styles.projectsSection} id="projects">
-            <h2 data-content="Projects" className={styles.sectionHeader}>
-                Projects
-            </h2>
+            <SectionHeader text="Projects" />
             <div className={styles.projectsContainer}>
                 <div className={styles.card}>
                     <div className={styles.projectInfo}>

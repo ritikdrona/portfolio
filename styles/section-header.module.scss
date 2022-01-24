@@ -1,0 +1,22 @@
+.sectionHeader {
+    height: 250px;
+    position: relative;
+
+    div {
+        position: absolute;
+        top: 0;
+        left: -30px;
+        font-size: 12rem;
+        color: grey;
+        font-weight: 700;
+        user-select: none;
+        opacity: 0.12;
+    }
+
+    h2 {
+        position: absolute;
+        bottom: 0;
+        font-size: 3.5rem;
+        margin-top: 5vh;
+    }
+}

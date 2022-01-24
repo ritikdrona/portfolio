@@ -1,5 +1,5 @@
 .projectsSection {
-    padding: 5% 5%;
+    padding: 50px 200px;
 
     .projectsContainer {
         width: 100%;
@@ -60,19 +60,4 @@
             }
         }
     }
-}
-
-.sectionHeader {
-    margin-top: 5vh;
-    font-size: 3em;
-    // z-index: 10;
-
-    // &::before {
-    //     content: attr(data-content);
-    //     font-size: 4em;
-    //     position: absolute;
-    //     top: 0;
-    //     color: rgb(148, 148, 148);
-    //     z-index: 9;
-    // }
 }
